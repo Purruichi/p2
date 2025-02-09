@@ -1,0 +1,25 @@
+main p {
+  font-size: 16px;
+  line-height: 1.6; /* Mejorar la legibilidad */
+  color: #555; /* Tono gris oscuro para los párrafos */
+  margin-bottom: 20px; /* Espacio entre párrafos */
+  text-align: justify; /* Alineación del texto para mayor legibilidad */
+  text-indent: 30px; /* Sangría al inicio de los párrafos */
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1); /* Sombra sutil para los párrafos */
+  padding: 10px;
+  background-color: #f9f9f9; /* Fondo suave para los párrafos */
+  border-radius: 5px; /* Bordes redondeados */
+}
+
+#letraPequeña {
+  font-size: 4px;
+  line-height: 1.6; /* Mejorar la legibilidad */
+  color: #555; /* Tono gris oscuro para los párrafos */
+  margin-bottom: 20px; /* Espacio entre párrafos */
+  text-align: justify; /* Alineación del texto para mayor legibilidad */
+  text-indent: 30px; /* Sangría al inicio de los párrafos */
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1); /* Sombra sutil para los párrafos */
+  padding: 10px;
+  background-color: #f9f9f9; /* Fondo suave para los párrafos */
+  border-radius: 5px; /* Bordes redondeados */
+}

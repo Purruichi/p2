@@ -2,13 +2,37 @@
 <html lang="es">
 	<head>
 		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Práctica 2</title>
+		<link rel="stylesheet" href="index.css">
+		<link rel="stylesheet" href="estilos.css">
 	</head>
 	<body>
-		<h1>Pagina principal</h1>
-		<hr>
-		<p>Esta es la pagina principal</p>
-		<br>
-		<a href="pag1.html"> <img src="resources/Pagina1.png" width="200" height="200"> </a>
+		<div class="container">
+			<header>
+				<h1>Página principal</h1>
+				<h2>Imágenes con enlaces</h2>
+				<hr>
+			</header>
+			<main>
+				<a href="pag1.html"> <img src="resources/Pagina1.png" > </a>
+				<a href="pag2.html"> <img src="resources/Pagina2.png" > </a>
+				<a href="pag3.html"> <img src="resources/Pagina3.png" > </a>
+			</main>
+		</div>
+		<footer>
+			<div class="contactoTitulo"> <p> Contáctanos </p> </div>
+			<div class="contacto">
+				<a href="mailto:202102274@alu.comillas.edu?subject=WebPractica2&body=Contacto desde el link facilitado en la Web Practica2.">E-Mail</a>
+				<a href="https://www.linkedin.com/in/juanbuezobufalá">LinkedIn</a>
+			</div>
+			<div class="enlacesTitulo"> <p> ¿No sabes donde ir? </p> </div>
+			<div class="enlaces">
+				<a href="pag1.html">Listado y tabla de contenidos</a>
+				<a href="pag2.html">Párrafos</a>
+				<a href="pag3.html">Formulario</a>
+			</div>
+			<p class="copyright">Copyright&copy;</p>
+		</footer>
 	</body>
 </html>

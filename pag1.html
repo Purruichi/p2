@@ -1,64 +1,90 @@
 <!DOCTYPE html> <!-- https://purruichi.github.io/p2/ -->
-
 <html lang="es">
 	<head>
 		<meta charset="UTF-8">
-		<title>Práctica 2</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Página Interior 1</title>
+		<link rel="stylesheet" href="pag1.css">
+		<link rel="stylesheet" href="estilos.css">
 	</head>
 	<body>
-		<h1>Página Interior 1</h1>
-		<hr>
-		<p>Esta es la página interior 1</p>
-		<br>
-		<ul>
-			<li>Página Principal
+		<div class="container">
+			<header>
+				<h1>Página Interior 1</h1>
+				<h2>Listado y tabla de contenidos</h2>
+				<hr>
+			</header>
+			<main>
+				<h3> Distribución de las páginas </h3> 
 				<ul>
-					<li>Página Interior 1</li>
-					<li>Página Interior 2</li>
-					<li>Página Interior 3</li>
+					<li>Página Principal
+						<ul>
+							<li>Página Interior 1</li>
+							<li>Página Interior 2</li>
+							<li>Página Interior 3</li>
+						</ul>
+					</li>
 				</ul>
-			</li>
-		</ul>
-		<table>
-			<caption id="tableCaption">Resumen de las diferentes páginas</caption>
-			<thead>
-				<th>Pagina</th>
-				<th>Contenido</th>
-			</thead>
-			<tbody>
-				<tr>
-					<td>
-						Página Principal
-					</td>
-					<td>
-						Imágenes
-					</td>
-				</tr>
-				<tr>
-					<td>
-						Página Interior 1
-					</td>
-					<td>
-						Listado paginas
-					</td>
-				</tr>
-				<tr>
-					<td>
-						Página interior 2
-					</td>
-					<td>
-						Parrafos
-					</td>
-				</tr>
-				<tr>
-					<td>
-						Página interior 3
-					</td>
-					<td>
-						Formulario
-					</td>
-				</tr>
-			</tbody>
-		</table>
+				<table width="25%">
+					<caption>Resumen de las diferentes páginas</caption>
+					<thead>
+						<th rowspan="1"></th>
+						<th>Página</th>
+						<th>Contenido</th>
+					</thead>
+					<tbody>
+						<tr>
+							<th rowspan="1">Páginas Principales</th>
+							<td>
+								Página Principal
+							</td>
+							<td>
+								Imágenes con enlaces
+							</td>
+						</tr>
+
+						<tr class="cambioSeccion">
+							<th rowspan="3">Páginas Interiores</th>
+							<td>
+								Página Interior 1
+							</td>
+							<td>
+								Listado y tabla de contenidos
+							</td>
+						</tr>
+						<tr>
+							<td>
+								Página interior 2
+							</td>
+							<td>
+								Párrafos
+							</td>
+						</tr>
+						<tr>
+							<td>
+								Página interior 3
+							</td>
+							<td>
+								Formulario
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</main>
+		</div>
+		<footer>
+			<div class="contactoTitulo"> <p> Contáctanos </p> </div>
+			<div class="contacto">
+				<a href="https://youtu.be/dQw4w9WgXcQ?si=Z80yJMjgRbidq-Ol&t=85">E-Mail</a>
+				<a href="Algo">Algo</a>
+			</div>
+			<div class="enlacesTitulo"> <p> ¿No sabes donde ir? </p> </div>
+			<div class="enlaces">
+				<a href="index.html">Imagenes con enlaces</a>
+				<a href="pag2.html">Párrafos</a>
+				<a href="pag3.html">Formulario</a>
+			</div>
+			<p class="copyright">Copyright&copy;</p>
+		</footer>
 	</body>
 </html>

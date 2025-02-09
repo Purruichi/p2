@@ -2,14 +2,77 @@
 <html lang="es">
 	<head>
 		<meta charset="UTF-8">
-		<title>Práctica 2</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Página Interior 3</title>
+		<link rel="stylesheet" href="estilos.css">
+		<link rel="stylesheet" href="pag3.css">
 	</head>
 	<body>
-		<h1>Página Interior 3</h1>
-		<h2></h2>
-		<hr>
-		<p>Esta es la página interior 1</p>
-		<br>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		<div class="container">
+			<header>
+				<h1>Página Interior 3</h1>
+				<h2>Formulario</h2>
+				<hr>
+			</header>
+			<main>
+				<form action="#" method="post" class="formulario">
+
+					<fieldset>
+						<legend>Datos Personales</legend>
+
+						<label for="nombre">Nombre:</label>
+						<input type="text" id="nombre" name="nombre" required placeholder="Ingresa tu nombre">
+
+						<label for="telefono">Teléfono:</label>
+						<input type="tel" id="telefono" name="telefono" required placeholder="Ingresa tu teléfono">
+
+						<label for="email">Correo electrónico:</label>
+						<input type="email" id="email" name="email" required placeholder="Ingresa tu correo electrónico">
+					</fieldset>
+
+					<fieldset>
+						<legend>Estética de la Página</legend>
+
+						<label for="colores">¿Cómo puntuarías el código de colores usado? (Escala 1-10):</label>
+						<input type="number" id="colores" name="colores" min="1" max="10" required>
+
+						<label for="distribucion">¿Cómo puntuarías la distribución de los diferentes objetos? (Escala 1-10):</label>
+						<input type="number" id="distribucion" name="distribucion" min="1" max="10" required>
+
+						<label for="sugerenciasEstetica">¿Qué sugerencias nos das para mejorar el diseño?</label>
+						<textarea id="sugerenciasEstetica" name="sugerenciasEstetica" rows="4" placeholder="Escribe tus sugerencias aquí..."></textarea>
+					</fieldset>
+
+					<fieldset>
+					<legend>Funcionalidades de la Página</legend>
+
+					<label for="funciones">¿Cómo puntuarías la página teniendo en cuenta las funciones implementadas? (Escala 1-10):</label>
+					<input type="number" id="funciones" name="funciones" min="1" max="10" required>
+
+					<label for="sugerenciasFunciones">¿Qué sugerencias nos das para ampliar las funcionalidades disponibles?</label>
+					<textarea id="sugerenciasFunciones" name="sugerenciasFunciones" rows="4" placeholder="Escribe tus sugerencias aquí..."></textarea>
+
+					<label for="calidadServicio">¿Qué sugerencias nos das para mejorar la calidad del servicio?</label>
+					<textarea id="calidadServicio" name="calidadServicio" rows="4" placeholder="Escribe tus sugerencias aquí..."></textarea>
+					</fieldset>
+
+					<button type="submit">Enviar</button>
+	    		</form>
+			</main>
+		</div>
+		<footer>
+			<div class="contactoTitulo"> <p> Contáctanos </p> </div>
+			<div class="contacto">
+				<a href="mailto:202102274@alu.comillas.edu?subject=WebPractica2&body=Contacto desde el link facilitado en la Web Practica2.">E-Mail</a>
+				<a href="https://www.linkedin.com/in/juanbuezobufalá">LinkedIn</a>
+			</div>
+			<div class="enlacesTitulo"> <p> ¿No sabes donde ir? </p> </div>
+			<div class="enlaces">
+				<a href="index.html">Imagenes con enlaces</a>
+				<a href="pag1.html">Listado y tabla de contenidos</a>
+				<a href="pag2.html">Párrafos</a>
+			</div>
+			<p class="copyright">Copyright&copy;</p>
+		</footer>
 	</body>
 </html>

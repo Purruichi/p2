@@ -1,0 +1,84 @@
+h3 {
+	text-align: center;
+	text-decoration: underline;
+	text-underline-offset: 4px;
+}
+
+/* Mejora estética de la lista */
+ul {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+ul > li {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+  padding-left: 10px;
+  position: relative;
+  transition: background-color 0.3s ease; /* Transición al pasar el mouse */
+}
+
+main > ul > li:hover {
+  background-color: #e0e0e0; /* Color de fondo al pasar el mouse */
+}
+
+ul > li > ul {
+  list-style-type: circle; /* Cambiar estilo de los puntos */
+  padding-left: 20px;
+  margin-top: 5px;
+}
+
+ul > li > ul > li {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 5px;
+  transition: color 0.3s ease;
+}
+
+ul > li > ul > li:hover {
+  color: #2c3e50; /* Cambiar color de los elementos al pasar el mouse */
+}
+
+
+table {
+	border: 2px solid black;
+	margin: 0 auto;
+	border-collapse: collapse;
+	background-color: white;
+	width: 100%;
+}
+
+caption {
+	font-family: 'Arial', sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	color: #333333;
+	background-color: #f0f0f0;
+	padding: 10px;
+	text-align: center;
+}
+
+
+thead {
+	border-bottom: 2px solid black;
+}
+
+th[rowspan] {
+	border-right: 2px solid black;
+}
+
+th:not([rowspan]) {
+	border-right: 1px solid #bfbfbf;
+}
+
+td {
+	border-right: 1px solid #bfbfbf;
+}
+
+.cambioSeccion {
+	border-top: 1px solid #4f4f4f;
+}
